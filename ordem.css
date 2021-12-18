@@ -1,0 +1,272 @@
+header{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#surprise{
+    background-image: linear-gradient(to right, transparent, rgba(231, 213, 223, 0.5), rgba(228, 221, 226, 0.5), rgba(227, 225, 230, 0.5), rgba(225, 228, 234, 0.5), rgba(221, 234, 241, 0.5), rgba(218, 241, 248, 0.5), rgba(214, 247, 255, 0.5), transparent);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#mortos{
+    width: 80%;
+}
+
+#morte{
+    width: 150px;
+    position: absolute;
+    left: 60px;
+    top: 919px;
+    
+}
+
+#bagwell{
+    height: 150px;
+    position: absolute;
+    right: 70px;
+    top: 1201px;
+}
+
+#phantogram{
+    width: 150px;
+    position: absolute;
+    left: 225px;
+    top: 1636px;
+}
+
+#saveus{
+    height: 150px;
+    position: absolute;
+    right: 155px;
+    top: 1606px;
+}
+
+/*#jungle{
+    width: 427px;
+    position: absolute;
+    right: 411.5px;
+    top: 1600px;
+}*/
+
+body{
+    background-image: url(background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 150px;
+    font-family: 'Festive', cursive;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Xanh Mono', monospace;
+    text-align: center;
+}
+
+h3{
+    font-size: 18px;
+    font-family: 'Forum', cursive;
+}
+
+a{
+    font-family: 'Forum', cursive;
+}
+
+p{
+    font-family: 'Xanh Mono', monospace;
+}
+
+p:hover {
+    animation-name: serotonin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes serotonin{
+    0%{color: #2a0c4e;}
+    25%{color: #8b2e33;}
+    50%{color: #c85a15;}
+    75%{color: #8b2e33;}
+    100%{color: #2a0c4e;}
+}
+
+#meia{
+    width: 100px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.heather ul li{
+    display: inline-block;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+section{
+    text-align: justify;
+    display: table;
+    width: 30%;
+}
+
+#newyork{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: dotted;
+    border-radius: 5%;
+    border-width: 5px;
+    border-color: rgba(222, 234, 242);
+    float: left;
+    background-color: rgba(239, 188, 213, 0.7);
+}
+
+#tokyo{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: dotted;
+    border-radius: 5%;
+    border-width: 5px;
+    border-color: rgba(222, 234, 242);
+    margin-bottom: 110px;
+    float: right;
+    background-color: rgba(239, 188, 213, 0.7);
+}
+
+#seul{
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: dotted;
+    border-radius: 5%;
+    border-width: 5px;
+    border-color: rgba(222, 234, 242);
+    background-color: rgba(239, 188, 213, 0.7);
+}
+
+#madrid{
+    float: right;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: dotted;
+    border-radius: 5%;
+    border-width: 5px;
+    border-color: rgba(222, 234, 242);
+    margin-bottom: 130px;
+    background-color: rgba(239, 188, 213, 0.7);
+}
+
+#shangai{
+    float: center;
+    margin-left: 411.5px;
+    margin-right: 411.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: dotted;
+    border-radius: 5%;
+    border-width: 5px;
+    border-color: rgba(222, 234, 242);
+    background-color: rgba(239, 188, 213, 0.7);
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#fantasma{
+    width: 100px;
+    animation: goaway 300ms ease-in 23s 1 forwards;
+}
+
+@keyframes goaway{
+    from {opacity: 1; top: 0;  width: 100px; left: 0;}
+    to {opacity: 0; top: -200px; width: 20px; left: 40px;}
+}
+
+footer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, transparent, rgba(231, 213, 223, 0.5), rgba(228, 221, 226, 0.5), rgba(227, 225, 230, 0.5), rgba(225, 228, 234, 0.5), rgba(221, 234, 241, 0.5), rgba(218, 241, 248, 0.5), rgba(214, 247, 255, 0.5), transparent);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 30%;
+}
+
+a{
+    font-size: 18px;
+    color: black;
+    transition: color 600ms linear; 
+}
+
+a:hover{
+    color:white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #e4dde2;
+    color: black;
+    padding: 1rem;
+    border: none;
+    font-family: 'Forum', cursive;
+    align-items: center;
+    margin-left: 42%;
+    margin-top: 10px;
+}
+
+.container-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(214, 247, 255, 0.7);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-popup.active{
+    display: flex;
+}
+
+.popup{
+    background-color: rgb(255, 234, 244);
+    border-radius: 10px;
+    padding: 2rem;
+    position: relative;
+    width: 500px;
+}
+
+.popup button{
+    background-color: #d6f7ff;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding-right: 25.3167px;
+    padding-left: 25.3167px;
+}
